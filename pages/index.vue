@@ -2,4 +2,5 @@
   <AskAndAnswer />
   <Transaction />
   <BannerImage />
+  Dsadas
 </template>
