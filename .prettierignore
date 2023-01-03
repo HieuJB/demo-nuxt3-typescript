@@ -19,7 +19,7 @@ _nuxt
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
+.lintstagedrc
 # Runtime data
 pids
 *.pid
