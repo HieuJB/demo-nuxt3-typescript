@@ -49,7 +49,8 @@
     "stylelint-selector-bem-pattern": "^2.1.1"
   },
   "lint-staged": {
-    "*.{js,ts,vue}": "eslint --cache",
-    "*.**": "prettier --check --ignore-unknown"
+    "**/*.{js,ts,vue,html,css}": [
+      "yarn lintfix"
+    ]
   }
 }
